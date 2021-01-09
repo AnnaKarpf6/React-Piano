@@ -1,0 +1,43 @@
+.black-keys-div {
+    display: flex;
+  }
+  .white-key {
+    height: 16em;
+    width: 4em;
+    background-color: #eeeeee;
+    border: 1px solid;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .white-key:active {
+    background-color: #b8b8b8;
+  }
+  .white-key-active {
+    background-color: #b8b8b8;
+  }
+  .black-key {
+    height: 8em;
+    width: 2em;
+    background-color: #373a40;
+    border: 1px solid;
+    position: absolute;
+    margin: 0 0 0 -1em;
+    z-index: 5;
+    border-color: black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .black-key:active {
+    background-color: #201e20;
+  }
+  .black-key-active {
+    background-color: #201e20;
+  }
+  

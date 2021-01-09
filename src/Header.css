@@ -1,0 +1,12 @@
+.head{
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    height: 70px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
